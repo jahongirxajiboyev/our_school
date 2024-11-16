@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./l.jfif" type="image/x-icon">
+    <title>Our school</title>
+</head>
+<body>
+    <div class="loading-screen">
+        <div class="loading"></div>
+    </div>
+    <script src="./script.js"></script>
+    <div class="header-nav"></div>
+    <header>
+        <h1>Home page</h1>
+        
+            <nav class="nav-links">
+                <ul>
+                    <a href="#home" class="nav-a3" >Home</a>
+                    <a href="#school" class="nav-a1" >School</a>
+                    <a href="#school-a" class="nav-a4">School appearance</a>
+                    <a href="#teachers" class="nav-a2">Teachers</a>
+                    <a href="#about" class="nav-a4">About us</a>
+                    <a href="#team" class="nav-a4">Team</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+ <section class="section-one" id="home">
+    <div class="content">
+        <p id="line1"></p>
+        <p id="line2"></p>
+        <p id="line3"></p>
+      </div>
+ </section>  
+ <section class="page-section-two" id="school">
+    <h1 class="hhh">Our school</h1><br>
+    <div class="schooll">
+        <img src="./l.jfif" alt="" class="im"><br>
+        <h3> Among the excellent schools, the specialized boarding school No. 1 in Khiva, Khorezm region is the largest. The area of this school is 8 hectares. This school has about 25 dormitories,football field a gymnasium, a swimming pool and a teaching building.Our school specializes in exact sciences and provides an opportunity to fully study the English language, physics, algebra, geometry, and the history of Uzbekistan. Not only specific subjects are passed, but other subjects are also passed. Every student who submits here has specific subjects in their focus
+        </h3><br>
+        <div class="btns">
+            <button class="btn" id="locationBtn">Joylashuv</button>
+        </div>   <br> <br>
+        <div id="mapContainer">
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24977.431387704943!2d69.2125014!3d41.3111539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef3d1a6f9b01f%3A0xc0b4b7a4a0dd58e2!2sXiva%2C%20Uzbekistan!5e0!3m2!1sen!2s!4v1667424985620!5m2!1sen!2s" 
+            width="100%" 
+            height="500" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        </div>   
+        <script>
+            // JavaScript: Joylashuv tugmasi bosilganda xaritani ko'rsatish
+    
+            var locationBtn = document.getElementById("locationBtn");
+            var mapContainer = document.getElementById("mapContainer");
+    
+            locationBtn.onclick = function () {
+                // Xarita ko'rsatiladi
+                if (mapContainer.style.display === "none" || mapContainer.style.display === "") {
+                    mapContainer.style.display = "block"; // Xarita ko'rsatiladi
+                } else {
+                    mapContainer.style.display = "none"; // Xarita yashiriladi
+                }
+            }
+        </script>
+    </div>
+ </section> 
+ <h1 class="hhh">School appearance</h1>
+ <section class="page-section-five" id="school-a">
+    <iframe width="100%" height="600px" src="./video_2024-11-16_11-26-51.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </section>
+ <section class="page-section-three" id="teachers">
+    <h1 class="hhh">Teachers</h1>
+    <div class="borders">
+        <div class="border">
+            <img src="./i1.jpg" alt="">
+            <div class="caption">
+                <p>Teacher</p>
+            </div>
+        </div>
+        <div class="border">
+            <img src="./i2.jpg" alt="">
+            <div class="caption">
+                <p>Teacher</p>
+            </div>
+        </div>
+        <div class="border">
+            <img src="./i3.jpg" alt="">
+            <div class="caption">
+                <p>Teacher</p>
+            </div>
+        </div>
+        <div class="border">
+            <img src="./i4.jpg" alt="">
+            <div class="caption">
+                <p>Teacher</p>
+            </div>
+        </div>
+        <div class="border">
+            <img src="./i5.jpg" alt="">
+            <div class="caption">
+                <p>Teacher</p>
+            </div>
+        </div>
+    </div> <br><br>
+    <div class="borders">
+        <div class="border">
+            <img src="./i7.jpg" alt="">
+            <div class="caption">
+                <p>Teacher</p>
+              </div>
+        </div>
+        <div class="border">
+            <img src="./i8.jpg" alt="">
+            <div class="caption">
+                <p>Teacher</p>
+              </div>
+        </div>
+        <div class="border">
+            <img src="./d1.jpg" alt="">
+            <div class="caption">
+                <p>Teacher</p>
+              </div>
+        </div>
+        <div class="border">
+            <img src="./sh.jpg" alt="">
+            <div class="caption">
+                <p>Teacher</p>
+              </div>
+        </div>
+        <div class="border">
+            <img src="./z.jpg" alt="">
+            <div class="caption">
+                <p>Teacher/p>
+              </div>
+        </div>
+    </div>
+ </section>
+ <h1 class="hhh">About us</h1> <br>
+ <section class="page-section-four" id="about">
+    <h5>We are pleased <br> to get acquainted with our site. <br> We hope you liked our site. Thank you very much-thank you for your visit!</h5><br><br>
+    <div class="team" >
+        <h6>Our team</h6>
+        <span class="me"></span>
+        <span class="me1"></span>
+        <span class="me2"></span>
+    </div>
+<section class="page-section-sixe" id="team">
+    <h1 class="hhh">Our class</h1>
+    <div class="is">
+        <img src="./t1.jpg" alt="" class="t1">
+        <img src="./t2.jpg" alt="" class="t1">
+        <img src="./t3.jpg" alt="" class="t1">
+    </div>
+    <div class="is">
+        <img src="./t4.jpg" alt="" class="t1">
+        <img src="./t55.jpg" alt="" class="t1">
+        <img src="./t6.jpg" alt="" class="t1">
+    </div>
+</section>    
+
+ </section>
+</body>
+</html>
